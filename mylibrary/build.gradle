@@ -11,7 +11,7 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
                 groupId = 'com.xyz.mylibrary' //groupId 随便取
-                artifactId = 'wustyq'  //artifactId 随便取
+                artifactId = 'zxh'  //artifactId 随便取
                 version = '1.0.0'
             }
         }
