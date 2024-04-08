@@ -1,9 +1,10 @@
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
-    id 'com.github.dcendents.android-maven'
+    id 'maven-publish'
 }
 group='com.github.xiaohuadream'
+version='1.0.0'
 
 android {
     namespace 'com.xyz.mylibrary'
