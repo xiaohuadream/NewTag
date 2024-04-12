@@ -7,4 +7,8 @@ object TestUtils {
     fun showToast2(context: Context) {
         Toast.makeText(context, "调成功！", Toast.LENGTH_SHORT).show()
     }
+
+    fun showToast3(context: Context) {
+        Toast.makeText(context, "调成功！", Toast.LENGTH_SHORT).show()
+    }
 }
