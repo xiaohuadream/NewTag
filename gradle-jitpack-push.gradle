@@ -1,5 +1,5 @@
 apply plugin: 'maven-publish'
-group='com.github.xiaohuadream'
+//group='com.github.xiaohuadream'
 afterEvaluate {
     publishing {
         publications {

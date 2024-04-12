@@ -3,6 +3,7 @@ plugins {
     id 'org.jetbrains.kotlin.android'
 }
 apply from: "$rootDir/gradle-jitpack-push.gradle"
+group='com.github.xiaohuadream'
 
 android {
     namespace 'com.xyz.mylibrary'
