@@ -1,10 +1,21 @@
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
+    id 'maven-publish'
 }
-apply from: "$rootDir/gradle-jitpack-push.gradle"
 group='com.github.xiaohuadream'
-
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.xyz.mylibrary' //groupId 随便取
+                artifactId = 'zxh'  //artifactId 随便取
+                version = '1.0.0'
+            }
+        }
+    }
+}
 android {
     namespace 'com.xyz.mylibrary'
     compileSdk 33
